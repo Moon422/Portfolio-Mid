@@ -1,0 +1,338 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: #2c3f50;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.navbar {
+    background: #2c3f50;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar * {
+    color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.nav-brand,
+.nav-menu {
+    text-transform: uppercase;
+}
+
+.nav-content {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-brand a:hover {
+    color: #19bc9c;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0.7rem 1rem;
+}
+
+.nav-link:hover {
+    background: #19bc9c;
+    border-radius: 0.5rem;
+    color: #2c3f50;
+}
+
+.action-btn {
+    margin-left: 5px;
+}
+
+.action-btn a {
+    background: #19bc9c;
+    border-radius: 0.5rem;
+}
+
+.action-btn a:hover {
+    outline: 2px solid white;
+}
+
+#banner {
+    background-color: #19bc9c;
+    background-image: url(./blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-content {
+    padding: 10rem 0;
+}
+
+#banner-content * {
+    color: #fff;
+}
+
+#banner-pic-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    width: 15rem;
+}
+
+#banner-pic {
+    width: 100%;
+    border-radius: 1000px;
+}
+
+#banner-name {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    opacity: 0.25;
+    margin: 1rem 0;
+}
+
+#banner-slogan {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2c3f50;
+}
+
+#about,
+#skills,
+#projects,
+#certificates,
+#footer>.content {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer>.content {
+    height: 100%;
+}
+
+#footer>.content * {
+
+    color: #fff;
+}
+
+#about h1,
+#skills h1,
+#projects h1,
+#certificates h1,
+#footer h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+#banner hr,
+#about hr,
+#skills hr,
+#projects hr,
+#certificates hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#two-col {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tech-stacks {
+    padding: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#experiences {
+    padding: 1rem;
+    border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#tech-stacks,
+#experiences {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+}
+
+.item>.heading>h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.progress-bar {
+    background: #2c3f50;
+    width: 100%;
+    height: 0.5rem;
+}
+
+.expertise-6 {
+    width: 60%;
+    height: 100%;
+    background: #19bc9c;
+}
+
+.expertise-7 {
+    width: 70%;
+    height: 100%;
+    background: #19bc9c;
+}
+
+.expertise-8 {
+    width: 80%;
+    height: 100%;
+    background: #19bc9c;
+}
+
+.expertise-9 {
+    width: 90%;
+    height: 100%;
+    background: #19bc9c;
+}
+
+#tech-stacks h3,
+#experiences h3 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+.item>.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tech-stacks>.item,
+#experiences>.item {
+    padding: 1.5rem;
+}
+
+#experiences>.item>p {
+    margin-left: 3rem;
+}
+
+#tech-stacks .item:hover,
+#experiences .item:hover {
+    background: rgba(0, 0, 0, 0.103);
+    border-radius: 0.5rem;
+}
+
+#projects>#project-list,
+#certificates>#certificate-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#project-list>.item {
+    flex: 0 1 calc(100%/4);
+    padding: 1rem;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+}
+
+.card-image {
+    width: 100%;
+    border-top-left-radius: calc(0.5rem - 1px);
+    border-top-right-radius: calc(0.5rem - 1px);
+}
+
+.card>.details {
+    padding: 1.25rem;
+}
+
+.card h5 {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+a.btn {
+    text-decoration: none;
+    background: #0d6efd;
+    color: #fff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    display: inline-block;
+    border-radius: 0.375rem;
+}
+
+#certificate-list>.item {
+    flex: 0 1 calc(100%/3);
+    padding: 1rem;
+}
+
+#footer {
+    background: #2c3f50;
+}
+
+#footer .social-media {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer .item {
+    margin: 0.5rem;
+}
+
+.social-media img {
+    width: 3.5rem;
+    filter: invert(100%) sepia(9%) saturate(364%) hue-rotate(262deg) brightness(116%) contrast(100%)
+}
+
+#footer>.content>p {
+    text-align: center;
+}
